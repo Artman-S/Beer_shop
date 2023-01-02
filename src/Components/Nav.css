@@ -1,33 +1,56 @@
-img {
+.Logo {
     display: flex;
     justify-items: flex-start;
-    height: 25%;
-    width: 25%;
+    width: 16%;
     margin-left: 5%;
 }
 
 nav {
     display: flex;
-    flex-direction: row;
-    /* background-color: blue; */
+    margin:  1%;
 }
 
 
 ul {
     display: flex;
-    flex-direction: row;
-    gap: 10%;
+    align-items: center;
+    gap: 50%;
+
 }
 
 li{
     display: flex;
-    align-items: center;
+    align-items:center;
     font-family: roboto;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 150%;
+    width: 130%;
 }
 
 a {
     list-style-type: none;
     text-decoration: none;
+    color: red;
 }
+
+@media screen AND (min-width: 940px) {
+
+    .Logo {
+        width: 6%;
+    }
+    
+    nav {
+        margin-left: -20%;
+        justify-content: space-evenly;
+
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    li { 
+        font-size: 300%;
+    }
+}
+    

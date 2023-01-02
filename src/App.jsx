@@ -1,6 +1,6 @@
 import React from "react";
 //import de react router dom
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 //import des pages
 import Home from "./Pages/Home";
@@ -12,12 +12,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Beers and so More</h1>
       <Router>
         <Nav />
        <Routes>
-          <Route path="/" element="{<Home />}" />
-          <Route path="Beers" element="{<Beers />}" />
+          <Route path="/" element={<Home />}/>
+          <Route path="Beers" element={<Beers />}/>
         </Routes>
       </Router>
     </div>

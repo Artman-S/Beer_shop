@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <>
     <nav>
-      <img src="./assets/logo.jpeg" alt="logo marque" />
+      <img className="Logo" src="./assets/logo.jpeg" alt="logo marque" />
       <ul>
         <li>
           <Link to="/">Home</Link>
