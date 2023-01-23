@@ -1,0 +1,49 @@
+nav {
+    display: flex;
+    margin:  0% 1% 0% 1%;
+    background-color: #EDEFEE;
+    border: solid 0.1rem;
+    border-top: 0;
+    border-radius: 0rem 0rem 1rem 1rem;
+    -webkit-border-radius: 0rem 0rem 1rem 1rem;
+    -moz-border-radius: 0rem 0rem 1rem 1rem;    
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    align-items:center;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.ancreNavbar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    color: #41403C;
+}
+
+.ancreNavbar:hover {
+    background-color:#D08856;
+    border-radius: 1rem;
+    width: 13rem;
+}
+
+@media screen AND (min-width: 940px) {
+  
+    li { 
+        font-size: 300%;
+    }
+}
+    

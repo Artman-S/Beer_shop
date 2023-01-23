@@ -1,15 +1,24 @@
-import React from "react";
-import Hero from "../Components/Hero";
-import Phylosophy from "../Components/Phylosophy";
+import "./Home.css";
+//import des composants
+
 //import des données
-import home from "../data/home";
+
 
 const Home = () => {
   return (
-    <>
-      <Hero hero={home.hero}/>
-      <Phylosophy phylosophy={home.phylosophy}/>
-    </>
+    <div className="BgColorHome">
+    <div className="Name">
+{                //avatar https://api.readyplayer.me/v1/avatars/63b8a9c625903a9ffc52fb8b.glb
+}     <h1>Sébastien Artesi, <br /> <h6>Développeur web, Technicien du son</h6>  </h1>
+    </div>
+      <p>Bienvenue sur mon portfolio,
+         vous trouverez des projets que j'ai réalisé 
+         et d'autres sur lesquels j'ai participer 
+         aussi bien en tant que développeur web que technicien audio.<br />Je vous laisse les découvrir !</p>
+      <h1 className="Titi">
+        coucou motherfucker tu es dans la page Home
+      </h1>
+    </div>
   );
 };
 
